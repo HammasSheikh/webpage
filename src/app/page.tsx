@@ -1,6 +1,7 @@
 function Home() {
   return (
-    <header className="flex justify-between">
+    <body>
+      <header className="flex justify-between">
             {/*logo*/}
             <div>
                 <h2 className="font-semibold text-2xl text-yellow-300 bg-blue-900">
@@ -87,6 +88,7 @@ I am excited to start working on more advanced concepts such as React.js and Nod
         <p>© 2024 Hammas Sheikh. Learning Next.js and Tailwind CSS.</p>
       </footer>
     </div>
+    </body>
   );
 }
 export default Home 
